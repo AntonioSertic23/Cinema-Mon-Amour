@@ -29,7 +29,7 @@ import static com.example.trpimir.cinemamonamour.activities.MovieDetail.MOVIE_ID
 
 public class Pop_Movies_Fragment extends Fragment implements Callback<MoviesResponse> {
 
-    public static final String API_KEY = "9aac4d1664cdcf018243622a66c90bf9";
+    public static final String API_KEY = "";
     public RecyclerView moviesRecyclerView;
     private MoviesAdapter moviesAdapter;
 
