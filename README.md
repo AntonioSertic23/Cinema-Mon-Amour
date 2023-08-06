@@ -1,32 +1,32 @@
 # Cinema Mon Amour
 
-## Mobilna aplikacija za vođenje evidencije filmova
+## Mobile Application for Movie Tracking
 
-Mobilna aplikacija Cinema Mon Amour je nastala na faksu kao projekt za konstrukcijske vježbe za predmet **Programiranje mobilnih aplikacija**.
+The Cinema Mon Amour mobile application was created during college as a project for the course **Mobile Application Programming**.
 
-Aplikacija služi za vođenje evidencije filmova kako bi si korisnik mogao pratiti omiljene pogledane filmove.
+The application serves the purpose of keeping track of movies, allowing the user to monitor their favorite watched films.
 
-Projekt je rađen u Android Studiu, a za programski jezik izabrana je **Java**. Primjenjena su znanja korištenja: activitya, adaptera, fragmenta, listenera, izrade modela i služenja network-om.
+The project was developed in Android Studio, and **Java** was chosen as the programming language. The application incorporates knowledge of using activities, adapters, fragments, listeners, model creation, and network usage.
 
 [![My Skills](https://skills.thijs.gg/icons?i=androidstudio,java,sqlite)](https://skills.thijs.gg)
 
-Kao baza podataka izabrana je lokalna baza podataka **Room**, a za dohvaćanje podataka o filmovima koristi se **Retrofit** koji se spaja na [TMDb API](https://www.themoviedb.org/documentation/api).
+The chosen database is the local **Room** database, and for fetching movie data, **Retrofit** is used, which connects to the [TMDb API](https://www.themoviedb.org/documentation/api).
 
 ---
 
-### U aplikaciji je moguće:
+### In the application, you can:
 
-- vidjeti listu filmova
-- pregled detalja filmova (datum izlaska, imdb ocjenu i opis)
-- dodavanje filmova u favorite uz dodjelu vlastite ocjene pojedinom filmu
-- pregled favorita gdje se vide svi dodani filmovi
-- uklanjanje filmova iz favorita
+- View a list of movies.
+- Explore movie details (release date, IMDb rating, and description).
+- Add movies to favorites and assign a personal rating to each movie.
+- Browse through favorites, where all added movies are visible.
+- Remove movies from favorites.
 
 ---
 
-### Pokretanje projekta
+### Project Setup
 
-Za pokretanje projekta potrebno je kreirati vlastiti _api key_ na službenoj stranici **TMDb API-a**, potom dobiveni _api key_ zalijepiti u `cinemamonamour/fragments/Pop_Movies_Fragment.java` unutar:
+To run the project, you need to create your own _api key_ on the official **TMDb API** website. Then, paste the obtained _api key_ into `cinemamonamour/fragments/Pop_Movies_Fragment.java`, inside:
 
 ```sh
 public static final String API_KEY = "";
