@@ -8,7 +8,7 @@ The application serves the purpose of keeping track of movies, allowing the user
 
 The project was developed in Android Studio, and **Java** was chosen as the programming language. The application incorporates knowledge of using activities, adapters, fragments, listeners, model creation, and network usage.
 
-[![My Skills](https://skills.thijs.gg/icons?i=androidstudio,java,sqlite)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,java,sqlite)](https://skillicons.dev)
 
 The chosen database is the local **Room** database, and for fetching movie data, **Retrofit** is used, which connects to the [TMDb API](https://www.themoviedb.org/documentation/api).
 
